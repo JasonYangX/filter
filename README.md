@@ -9,16 +9,15 @@
 
 ---
 
+1、生成trie树
 ```
 trie_filter_new()
 trie_filter_store()
 trie_filter_save()
 ```
-使用以上函数生成trie树
 
+2、匹配敏感词
 ```
 trie_filter_load()
 trie_filter_search_all()
 ```
-
-使用以上函数可匹配敏感词
